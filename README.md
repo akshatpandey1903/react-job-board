@@ -44,15 +44,21 @@ In the project directory, you can run:
 
 #### Install dependencies
 
+```plaintext
 npm install
+```
 
 #### Start the json-server backend (port 5000)
 
+```plaintext
 npx json-server --watch db.json --port 5000
+```
 
 #### Start the frontend React app (port 3000)
 
+```plaintext
 npm start
+```
 
 The app will run at http://localhost:3000, and the json-server backend will run at http://localhost:5000.
 
@@ -88,14 +94,30 @@ The backend API exposes the following endpoints:
 
 ## Setup and Installation
 
-1. Clone this repository to your local machine. git clone https://github.com/akshatpandey1903/react-job-board.git
-   cd react-job-board
+1. Clone this repository to your local machine.
 
-2. Install the necessary dependencies: npm install
+```plaintext
+git clone https://github.com/akshatpandey1903/react-job-board.git
+cd react-job-board
+```
 
-3. Start the json-server: npx json-server --watch jobs.json --port 5000
+2. Install the necessary dependencies:
 
-4. Start the React application: npm run start
+```plaintext
+npm install
+```
+
+3. Start the json-server:
+
+```plaintext
+npx json-server --watch jobs.json --port 5000
+```
+
+4. Start the React application:
+
+```plaintext
+npm run start
+```
 
 The React app will automatically open in your browser at http://localhost:3000.
 
